@@ -52,17 +52,7 @@ class App extends Component {
     console.log(abc)
   }
 
-// checkItem = (item) => {
-//   const { checked } = this.state;
-//   let newArr = [];
-//
-//   if (!checked.includes(item)) {
-//     newArr = [...checked, item];
-//   } else {
-//     newArr = checked.filter(a => a !== item);
-//   }
-//   this.setState({ checked: newArr }, () => console.log('updated state', newArr))
-// };
+
 
   render() {
     return (
