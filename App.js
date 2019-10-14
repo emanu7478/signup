@@ -75,18 +75,6 @@ class App extends Component {
             />
           </View>
 
-          <View>
-            {checks.map((item,i) => {
-              return (
-                  <CheckBox
-                      key={i}
-                      title={item}
-                      checked={true}
-                      onPress={() => this.toggleCheckbox()}
-                  />
-              );
-            })}
-          </View>
 
           <View style={{flexDirection: 'column'}}>
             <Picker
