@@ -34,10 +34,15 @@ class App extends Component {
 
 
   update(text, field) {
+
     if (field == 'name') {
       this.setState({
         name: text,
       });
+      console.log('ntttkktjji')
+      if(field == 'name'){
+        console.log('jhdjfhjdfjk')
+      }
     } else if (field == 'email') {
       this.setState({
         email: text,
