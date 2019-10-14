@@ -39,7 +39,9 @@ class App extends Component {
       this.setState({
         name: text,
       });
+
       console.log('ntttkktjji')
+
       if(field == 'name'){
         console.log('jhdjfhjdfjk')
       }
