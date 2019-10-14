@@ -38,6 +38,9 @@ class App extends Component {
       this.setState({
         name: text,
       });
+      if(field == 'name'){
+        console.log('jhdjfhjdfjk')
+      }
     } else if (field == 'email') {
       this.setState({
         email: text,
